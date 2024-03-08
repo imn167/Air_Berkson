@@ -10,8 +10,8 @@ The project is about a case study taken from Winbugs volume.
 
 -> Hearts: a mixture model for count data (VOL2) (modèle de mélange)
 
--> Air: covariate measurement error (VOL2) (notion de calibration ptt sympa ou pas)
+-> Air: covariate measurement error (VOL2) (notion de calibration ptt sympa ou pas) (J'aime bien , No)
 
--> Fun shapes: general constraints (VOL3) (vrmt c'est fun ce qu'on peut faire avec le modèle)
+-> Fun shapes: general constraints (VOL3) (vrmt c'est fun ce qu'on peut faire avec le modèle) (J'aime bien, No)
 
 
