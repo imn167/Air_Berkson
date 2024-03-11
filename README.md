@@ -10,7 +10,7 @@ The project is about a case study taken from Winbugs volume.
 ➡️ Noémie Matrat   
 ➡️ Clément Poupelin  
 ➡️ Matthieu Trotreau  
-➡️ Imène Bouafia
+➡️ Imène Bouafia  
 ➡️ Barrion Michaël
 
 
