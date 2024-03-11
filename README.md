@@ -11,6 +11,7 @@ The project is about a case study taken from Winbugs volume.
 ➡️ Clément Poupelin  
 ➡️ Matthieu Trotreau  
 ➡️ Imène Bouafia
+➡️ Barrion Michaël
 
 
 
