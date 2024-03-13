@@ -1,0 +1,63 @@
+Code LaTeX pour dessiner le modèle 
+
+\begin{center}
+    \begin{tikzpicture}
+        % X_j et ses variables 
+        \node [circle, fill = gray!20!white] (xj) {$X_j$};
+        \node [rectangle, fill = gray!20!white, above of = xj, yshift=1.5em, xshift=-4em] (tau) {$\tau$};
+        \node [circle, fill = gray!20!white, above of = xj, yshift=0.2em, xshift=2em] (muj) {$\mu_j$};
+
+        % pj et ses variables 
+        \node [circle, fill = gray!20!white, below of = xj, yshift=-2em] (pj) {$p_j$};
+        \node [circle, fill = gray!20!white, left of = pj, yshift=1.5em, xshift=-2em] (theta1) {$\theta_1$};
+        \node [circle, fill = gray!20!white, left of = pj, yshift=-1.5em, xshift=-2em] (theta2) {$\theta_2$};
+
+        % yj et ses variables 
+        \node [circle, fill = gray!20!white, below of = pj, yshift=-2em, xshift=4em] (yj) {$y_j$};
+        \node [rectangle, fill = gray!20!white, right of = pj, xshift=4em] (nj) {$n_j$};
+
+         % Add Arrows
+        \path [line] (tau) -- (xj);
+        \path [line] (muj) -- (xj);
+
+        \path [line] (theta1) -- (pj);
+        \path [line] (theta2) -- (pj);
+        \path [line] (xj) -- (pj);
+
+        \path [line] (pj) -- (yj);
+        \path [line] (nj) -- (yj);
+        
+    \end{tikzpicture}
+\end{center}
+
+En plus gros :
+
+\begin{center}
+    \begin{tikzpicture}
+        % X_j et ses variables 
+        \node [elli, fill = gray!20!white] (xj) {$X_j$};
+        \node [block, fill = gray!20!white, above of = xj, yshift=1.5em, xshift=-14em] (tau) {$\tau$};
+        \node [elli, fill = gray!20!white, above of = xj, yshift=0.5em, xshift=8em] (muj) {$\mu_j$};
+
+        % pj et ses variables 
+        \node [elli, fill = gray!20!white, below of = xj, yshift=-6em] (pj) {$p_j$};
+        \node [elli, fill = gray!20!white, above of = pj, yshift=0.5em, xshift=-12em] (theta1) {$\theta_1$};
+        \node [elli, fill = gray!20!white, below of = pj, yshift=0.5em, xshift=-12em] (theta2) {$\theta_2$};
+
+        % yj et ses variables 
+        \node [elli, fill = gray!20!white, below of = pj, yshift=-4em, xshift=6em] (yj) {$y_j$};
+        \node [block, fill = gray!20!white, right of = pj, xshift=10em] (nj) {$n_j$};
+
+         % Add Arrows
+        \path [line] (tau) -- (xj);
+        \path [line] (muj) -- (xj);
+
+        \path [line] (theta1) -- (pj);
+        \path [line] (theta2) -- (pj);
+        \path [line] (xj) -- (pj);
+
+        \path [line] (pj) -- (yj);
+        \path [line] (nj) -- (yj);
+        
+    \end{tikzpicture}
+\end{center}
